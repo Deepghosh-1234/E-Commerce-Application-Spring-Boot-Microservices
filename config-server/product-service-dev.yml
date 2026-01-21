@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: product-service
+
 server:
   port: 8082
 
@@ -7,10 +11,10 @@ spring:
     username: root
     password: deep1234
 
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
 
 eureka:
   client:
